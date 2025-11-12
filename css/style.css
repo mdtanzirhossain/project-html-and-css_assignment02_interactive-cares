@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 html, body {
   margin: 0;
@@ -15,7 +16,6 @@ h1,h2,h3,h4,h5,h6{
 .header{
     
     background-color: #F3FCF7;
-    max-width: 1170px;
     margin:0 auto;
     
 
@@ -23,8 +23,8 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar{
     display: flex;
-    gap: 250px;
-    justify-content:center;
+    gap: 325px;
+    justify-content:space-between;
     margin: 0 auto;
     align-items: center;
     max-width: 1170px;
@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
     gap: 44px;
     justify-content: center;
     align-items: center;
-    transform: translateX(60px);
+    /* transform: translateX(60px); */
     
 }
 
@@ -56,13 +56,13 @@ ul li{
    width: 50px;
    height: 40px;
    border: 2px solid green;
-
    border-radius: 4px;
 }
 .banner-part{
     display: flex;
     gap: 40px;
-    
+    width: 1170px;
+    margin: 0 auto;
 }
 .banner-left h1{
     font-weight: 600;
@@ -84,13 +84,17 @@ ul li{
 }
 
 .banner-heading{
-    font-family: inter;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    font-size: 75px;
+    font-weight: 600;
+    
 }
 
 .banner-footer{
     display: flex;
     gap:40px;
-    margin-top: 46px;
+    margin-top: 28px;
     padding-left: 140px;
     width: 1170px;
     
@@ -102,33 +106,35 @@ ul li{
 
 .width{
     width: 70%;
-    font-family: Inter;
+    font-family: "Inter",sans-serif;
     font-weight: 600;
-    font-style: Semi Bold;
     font-size: 75px;
     margin-bottom: 0;
 
 }
 
 .p-width{
-    width:50%;
-    font-family: Inter;
+    width:60%;
+    font-family: "Inter",sans-serif;
     font-weight: 400;
-    font-style: Regular;
     font-size: 16px;
 
 
 }
 .banner{
-    position: relative;
+    /* position: relative; */
     background-color: #F3FCF7;
     padding: 0 135px;
     height: 583px;
-
+    max-width: none;
+}
+.banner-wrapper{
+    width: 100%;
+    position: relative;
 }
 .banner-right{
     position:absolute;
-    right:60px;
+    right:213px;
     top: 70px;
     width: 468px;
     height: 634px;
@@ -147,8 +153,8 @@ ul li{
 .polcadot{
     z-index: 1;
     position:absolute;
-    right:140px;
-    top: 615px;
+    right:90px;
+    top: 505px;
 }
 
 
@@ -162,8 +168,8 @@ ul li{
     align-items: center;
     padding: 6px 7px;
     border-radius: 30px;
-    right:70px;
-    top: 272px;
+    right:217px;
+    top: 255px;
 }
 .sticker-2{
     background-color: white;
@@ -175,8 +181,8 @@ ul li{
     align-items: center;
     padding: 6px 8px;
     border-radius: 30px;
-    right:340px;
-    top: 420px;
+    right:555px;
+    top: 334px;
 }
 
 
@@ -293,7 +299,7 @@ ul li{
     margin: 0;
 }
 .benefit-right h1{
-    width: 90%;
+    
     font-size: 64px;
     font-weight: medium;
     padding-bottom: 56px;
@@ -493,7 +499,9 @@ letter-spacing: 0%;
     box-sizing: border-box;
     
 }
-
+.product{
+    text-align: center;
+}
 
 
 .card{
@@ -552,11 +560,9 @@ letter-spacing: 0%;
 }
 .footer-heading{
     padding-bottom: 40px ;
-    
+    white-space: nowrap;
 }
-.about-part{
-    width: 104px;
-}
+
 .footer-right{
     display: flex;
     gap: 96px;
@@ -656,4 +662,8 @@ section{
 .social-icon{
     display: flex;
     gap: 22px;
+}
+
+.company{
+    white-space: nowrap;
 }
