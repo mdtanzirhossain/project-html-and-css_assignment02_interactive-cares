@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+
     <title>Foodies</title>
     
 </head>
@@ -23,6 +26,7 @@
                 </ul>
 
             </div>
+            <div class="menu"><i class="fa-solid fa-bars"></i></div>
         </nav>
     </header>
 
@@ -31,16 +35,16 @@
     <section class="banner">
 
         <div class="">
-            <div class="flex">
+            <div class="banner-part">
                 <div class="banner-left">
-                    <h1 class="width">We're Serious For Food.</h1>
-                    <p CLASS="p-width">We strive to provide a space where guests can connect with themselves and explore their full potential, offering a safe place.</p>
+                    <div class="banner-heading"><h1 class="width">We're Serious For Food.</h1></div>
+                    <div class="banner-paragraph"><p class="p-width">We strive to provide a space where guests can connect with themselves and explore their full potential, offering a safe place.</p></div>
                     <div class="btn-star">
                         <div>Get Started</div>
                         <div><img src="/asset/Icon awesome-long-arrow-alt-right (2).png" alt=""></div>
                     </div>
                 </div>
-                <div class="banner-right"><img src="/asset/Place Your Image.png"></div>
+                <div class="banner-right"><img class="banner-img" src="/asset/Place Your Image.png"></div>
                 <div class="polcadot"><img src="/asset/Polcadot.png"></div>
                 <div class="sticker-1">
                     <div class="avatar"><img src ="/asset/Place Your Image 2.png"></div>
@@ -58,14 +62,16 @@
     </section>
     <section>
         <div class="banner-footer"> 
-                <div><img src="/asset/Group 1.png"></div>
-                <div><img src="/asset/Group 2.png"></div>
-                <div><img src="/asset/Group 3.png"></div>
+                <div><img class="footer-img" src="/asset/Group 1.png"></div>
+                <div><img class="footer-img" src="/asset/Group 2.png"></div>
+                <div><img class="footer-img" src="/asset/Group 3.png"></div>
             </div>
     </section>
+    <!-- service detail starts -->
+    
     <section class="service-detail">
-        <div>
-            <hr>
+        <div class="service">
+            <hr class="horizontal-line1">
             <div class="all-flex">
                 <div class="features">
                     <div class="icon-background"><img src= "asset/Icon awesome-truck.png"></div>
@@ -96,17 +102,22 @@
                     </div>
                 </div>
             </div>
-        <hr>
+        <hr class="horizontal-line2">
         </div>
     </section>
+
+    <!-- service detail ends -->
+    <!-- benefit section starts -->
     <section>
         <div class="benefit-flex">
-            <div class="benefit-left">
+            <div class="img-container">
+                <div class="benefit-left">
                 <img src="asset/Place Your Image (1).png" alt="vegetables">
+            </div>
             </div>
             <div class="benefit-right">
                 <h6>Our Benefit</h6>
-                <h1 class="">The More Healthy Food The Better</h1>
+                <h1>The More Healthy Food The Better</h1>
                 <div class="benefit-gap">
                 <p ><img class="checklist" src="/asset/Icon awesome-check.png">Be Alive With Veggie Food</p>
                 <p ><img class="checklist" src="/asset/Icon awesome-check.png">Its the place to be</p>
@@ -121,9 +132,9 @@
 
     <section class="starsection">
         <div class="star-left">
-            <div>
+            <div class="star-dom">
                 <h6>Our Stars</h6>
-                <h1 class="Veggie Food Goes On And Always On">The More Healthy Food The Better</h1>
+                <h1 class="">Veggie Food Goes On And Always On</h1>
             </div>
             <div class="starbox">
                 <div class="box">
@@ -144,14 +155,22 @@
                 <div><img src="/asset/Icon awesome-long-arrow-alt-right (2).png" alt=""></div>
             </div>
         </div>
-        <div class="star-right">
+        <div class="star-container">
+            <div class="img-holder">
+            <div class="star-right">
             <img src="/asset/Place Your Image (2).png" alt="vegetables">
+            </div>
+        </div>
         </div>
     </section>
+<!-- benefit section ends -->
+<!-- feature section starts -->
 
-    <section >
-        <h6>Our Features</h6>
-        <h1>Variety of Foods</h1>
+    <section class="section-feature">
+        <div class="head-box">
+            <h6 class="feature-head">Our Features</h6>
+            <h1 class="feature-heads">Variety of Foods</h1>
+        </div>
         <div class="grid">
             <div class="overflow"><img class="object-fit"src="/asset/Place Your Image (3).png" alt="vegetables"></div>
             <div class="feature-section">
@@ -164,7 +183,7 @@
             </div>
             <div><img src="/asset/Place Your Image (4).png" alt=""></div>
             <div class="feature-section">
-                <h1 class="feature-heading">Veggies Are Forever</h1>
+                <h1 class="feature-heading">Good For Your Skin</h1>
                 <p class="feature-paragraph">We offer the following services</p>
                 <div class="btn-discover">
                     <p>Discover Now</p>
@@ -173,7 +192,7 @@
             </div>
             <div><img src="/asset/Place Your Image (5).png" alt=""></div>
             <div class="feature-section">
-                <h1 class="feature-heading">Veggies Are Forever</h1>
+                <h1 class="feature-heading">Veggie Food Groove</h1>
                 <p class="feature-paragraph">We offer the following services</p>
                 <div class="btn-discover">
                     <p>Discover Now</p>
@@ -182,7 +201,7 @@
             </div>
             <div><img src="/asset/Place Your Image (6).png" alt=""></div>
             <div class="feature-section">
-                <h1 class="feature-heading">Veggies Are Forever</h1>
+                <h1 class="feature-heading">That Comes Close</h1>
                 <p class="feature-paragraph">We offer the following services</p>
                 <div class="btn-discover">
                     <p>Discover Now</p>
@@ -193,8 +212,8 @@
     </section>
     <!-- Feature Section End -->
      <!-- Our Product section starts -->
-    <section>
-        <div>
+    <section class="product-section">
+        <div class="product">
             <h6>Our Product</h6>
             <h1>Most Popular Product</h1>
         </div>
@@ -255,7 +274,7 @@
     </section>
     <!-- Our Product section ends -->
     <!-- Ingredients section starts -->
-     <section>
+     <section class="veggie-banner">
         <div class="background-image">
             <h1 class="Ingredient-heading">Veggie Foods? Ingredients You Want To Try</h1>
             <div class="btn-ingredient">
@@ -265,7 +284,6 @@
         </div>
      </section>
     <!-- Ingredients section ends -->
-
     <!-- Footer section starts -->
    
 
@@ -275,7 +293,10 @@
             <div><img src="/asset/Logo.png" alt=""></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
             <div class="social-icon">
-                facebook
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></i></div>
+                <div><i class="fa-brands fa-twitter"></i></div>
+                
             </div>
        </div>
        <div class="footer-right">
@@ -301,8 +322,10 @@
                 <h3 class="footer-heading">Get in touch</h3>
                 <div class="getintouch">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <div class="subscription">
                     <input type="email" name="" placeholder="Email" id="">
                     <button type="submit">Subscribe</button>
+                    </div>
                 </div>
             </div>
            

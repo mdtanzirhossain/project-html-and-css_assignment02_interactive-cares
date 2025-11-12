@@ -1,0 +1,659 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll from overflow */
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.header{
+    
+    background-color: #F3FCF7;
+    max-width: 1170px;
+    margin:0 auto;
+    
+
+}
+
+.navbar{
+    display: flex;
+    gap: 250px;
+    justify-content:center;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1170px;
+}
+.nav-right {
+    position: relative;
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(60px);
+    
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    padding:0;
+    margin: 0;
+}
+ul li{
+    list-style-type: none;
+    font-size: 16px;
+
+}
+.menu{
+   display: none;
+   color: #06C167; 
+   width: 50px;
+   height: 40px;
+   border: 2px solid green;
+
+   border-radius: 4px;
+}
+.banner-part{
+    display: flex;
+    gap: 40px;
+    
+}
+.banner-left h1{
+    font-weight: 600;
+    font-size:75px;
+    line-height: 100%;
+}
+
+.banner-left{
+    padding-top: 130px;
+    padding-bottom: 0px;
+    
+}
+.banner-left p{
+    font-weight: 400;
+    font-size:16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+
+}
+
+.banner-heading{
+    font-family: inter;
+}
+
+.banner-footer{
+    display: flex;
+    gap:40px;
+    margin-top: 46px;
+    padding-left: 140px;
+    width: 1170px;
+    
+}
+
+.footer-img{
+    width:70%
+}
+
+.width{
+    width: 70%;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 75px;
+    margin-bottom: 0;
+
+}
+
+.p-width{
+    width:50%;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+
+}
+.banner{
+    position: relative;
+    background-color: #F3FCF7;
+    padding: 0 135px;
+    height: 583px;
+
+}
+.banner-right{
+    position:absolute;
+    right:60px;
+    top: 70px;
+    width: 468px;
+    height: 634px;
+
+
+}
+
+.banner-right img{
+    width: 430px;          /* or % value */
+    height: auto;          /* keeps aspect ratio */
+    object-fit: contain;   /* prevents cropping */
+    image-rendering: auto; /* browser smooth scaling */
+
+   
+}
+.polcadot{
+    z-index: 1;
+    position:absolute;
+    right:140px;
+    top: 615px;
+}
+
+
+.sticker-1{
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 7px;
+    border-radius: 30px;
+    right:70px;
+    top: 272px;
+}
+.sticker-2{
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 30px;
+    right:340px;
+    top: 420px;
+}
+
+
+.horizontal-line1{
+    /* width: 100%;   */
+   border-color: #F3FCF7;
+  
+}
+.horizontal-line2{
+    /* width: 100%;   */
+   border-color: #F3FCF7;
+
+}
+.service{
+    /* width: 100%; */
+    width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+.service-detail{
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+.icon-background{
+     background-color: #F3FCF7;
+     width: 70px;
+     height: 70px;
+     border-radius: 14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.features{
+    display:flex;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-1{
+    
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+.paragraph-2{
+    
+    font-size: 14px;
+    font-weight: 500;
+    font-style: medium;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.all-flex{
+    display: flex;
+    gap: 112px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-detail{
+    padding: 64px 0px;
+    
+}
+
+.checklist{
+    padding-right: 22px;
+}
+
+.benefit-gap{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.benefit-gap p{
+    margin: 0;
+}
+.benefit-left{
+    width: 540px;
+    height: 608px;
+}
+
+.benefit-left img{
+    width: 445px;
+    height: 513px;
+
+}
+
+.benefit-flex{
+    display: flex;
+    gap: 84px;
+    justify-content: center;
+    align-items: center;
+}
+.img-container{
+    width: 540px;
+    height: 608px;
+    background-color: #F3FAFB;
+    text-align: center;
+   
+    
+    border-width: 1px;
+
+}
+.benefit-right h6{
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.benefit-right h1{
+    width: 90%;
+    font-size: 64px;
+    font-weight: medium;
+    padding-bottom: 56px;
+    margin: 0;
+}
+.quantity{
+    color: #06C167;
+    
+    font-weight: 600;
+    font-style: medium;
+    font-size: 40px;
+    margin: 0;
+    
+    
+}
+
+.name{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin: 0;
+
+}
+.star-dom h6{
+    font-size: 15px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.starbox{
+    display: flex;
+    gap: 84px;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 56px 0px;
+}
+
+.starsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.star-dom h6{
+    padding-bottom: 20px;
+}
+.star-dom h1{
+    width: 90%;
+    font-size: 60px;
+}
+.star-right{
+    text-align: end;
+}
+
+
+
+.star-right img{
+    width: 445px;
+    height: 513px;
+
+
+}
+.img-holder{
+    width: 542px;
+    height: 608px;
+    background-color: #f3fafb;
+}
+.btn-banner{
+    background-color: #06C167;
+    width: 233px;
+    height: 79px;
+    opacity: 1;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    gap: 16px;
+}
+.btn-star{
+    background-color: #06C167;
+    width: 233px;
+    height: 79px;
+    opacity: 1;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+.section-feature{
+    margin-bottom: 192px;
+}
+
+.feature-head{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.feature-heads{
+    font-size: 60px;
+    
+}
+.feature-section h1{
+    font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.head-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+.feature-section p{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+
+}
+
+.btn-discover{
+    background-color: #e6f9f0;
+    color: #06C167;
+    width: 148px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2,292px);
+    gap:0px ;
+}
+
+.feature-section{
+    background-color: #f4fcf7;
+    padding-left: 38px;
+    padding-top: 38px;
+    padding-bottom: px;
+}
+.feature-heading{
+    width: 80%;
+}
+
+.feature-paragraph{
+     width: 40%;
+}
+
+.object-fit{
+    object-fit: contain;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.product-section{
+    padding-bottom: 192px;
+}
+.product h6{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.product h1{
+    font-size: 60px;
+    padding-bottom: 64px;
+}
+.product-card{
+    width: 270px;
+    height: 445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    border: 2px solid #dddddd;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    
+}
+
+
+
+.card{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.star{
+    margin-top: -17px;
+    margin-bottom: -17px;
+}
+
+.btn-buy{
+    color: #06C167;
+    border: 2px solid #06C167;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-right: 30px;        
+    padding-left: 30px;   
+    z-index: 1;     
+}
+
+.green-arrow{
+    width: 22px;
+    height: 11px;
+}
+
+.card-pragraph{
+    margin-top: px;
+}
+
+.product-card:hover {
+    border-color: #06C167;
+}
+
+.veggie-banner{
+    margin-bottom: 192px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-left p{
+    width: 40%;
+}
+
+.footer-section{
+    display: flex;
+}
+.footer-heading{
+    padding-bottom: 40px ;
+    
+}
+.about-part{
+    width: 104px;
+}
+.footer-right{
+    display: flex;
+    gap: 96px;
+}
+
+.getintouch input{
+    width: 205px;
+    height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background-color: #f0f1ec;
+}
+
+.getintouch button{
+    width: 118px;
+    height: 50px;
+    background-color: #06C167;
+    color: white;
+    
+
+}
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+}
+input[type="email"]:focus {
+  outline: none;              
+  border-color: transparent;  
+}
+
+.copyright{
+    text-align: center;
+}
+
+footer{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+section{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.background-image{
+    background-image:url('/asset/4734847b5bd31c1a9cdcd022e9265cf12aca7e6b.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.background-image:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45); 
+}
+
+.Ingredient-heading{
+    color: #FFFFFF;
+    width: 40%;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 38px;
+}
+
+.btn-ingredient div{
+    z-index: 1;
+}
+
+.btn-ingredient{
+    background-color: #06C167;
+    width: 233px;
+    height: 79px;
+    opacity: 1;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    z-index: 1;
+}
+
+.social-icon{
+    display: flex;
+    gap: 22px;
+}
