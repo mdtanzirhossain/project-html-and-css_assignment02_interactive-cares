@@ -86,13 +86,14 @@
    .banner-left h1{
     font-weight: 600;
     font-size:51px;
-    line-height: 100%;
     align-items: center;
     
+    /* white-space: nowrap; */
+    width: 328px;
 }
 
 .banner-part{
-   width: ;
+   width: auto;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -102,7 +103,7 @@
 .banner-left{
     padding-top: 60px;
     padding-bottom: 0px;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,20 +111,21 @@
 }
 
 .banner-right img{
-    width: 328px;          /* or % value */
-    height: auto;          /* keeps aspect ratio */
-    object-fit: contain;   /* prevents cropping */
-    image-rendering: auto; /* browser smooth scaling */
+    width: 320px;          
+    height: auto;          
+    object-fit: contain;   
+    image-rendering: auto; 
    /* display: none; */
    
 }
 
 .banner-right{
     position:absolute;
-    left:22px;
+    left: 0px;
     top: 480px;
     width: 48px;
     height: 634px;
+    margin: 0 auto;
     /* display: none; */
 
 }
