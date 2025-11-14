@@ -23,10 +23,10 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar{
     display: flex;
-    gap: 325px;
-    justify-content:space-between;
+    gap: 500px;
+    
     margin: 0 auto;
-    align-items: center;
+   
     max-width: 1170px;
 }
 .nav-right {
@@ -35,21 +35,74 @@ h1,h2,h3,h4,h5,h6{
     gap: 44px;
     justify-content: center;
     align-items: center;
+    padding-left: ;
     /* transform: translateX(60px); */
     
 }
 
 ul{
     display: flex;
-    gap: 40px;
+    gap: 38px;
     padding:0;
     margin: 0;
 }
 ul li{
     list-style-type: none;
     font-size: 16px;
-
+    position: relative;
 }
+
+ul li a:hover{
+    color: #06C167;
+}
+ul li a:focus{
+    color: #06C167;
+}
+ul li:active{
+    color: #06C167;
+}
+a{
+    text-decoration: none;
+}
+/* .dot{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    background-color: #06C167;
+    color: #06C167;
+    display: inline-block;
+    border-radius: 50%;
+    top:50px;
+    right: 50px;
+    opacity: 1;
+    transform: translateX(-50%);
+} */
+ul li ::after:hover .dot{
+    opacity: 1;
+    transform: translateX(-95%) translateY();
+    
+}
+
+ul li::after {
+  content: "";
+  position: absolute;
+  top: 26px;         /* distance below text */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;           /* circle size */
+  height: 6px;
+  background: #06C167;    /* circle color */
+  border-radius: 50%;
+  opacity: 0;
+}
+/* Show dot on hover */
+ul li:hover::after {
+  opacity: 1;
+}
+
+/* Show dot on active page */
+
+
 .menu{
    display: none;
    color: #06C167; 
@@ -95,7 +148,6 @@ ul li{
     display: flex;
     gap:40px;
     margin-top: 28px;
-    padding-left: 140px;
     width: 1170px;
     
 }
@@ -134,7 +186,7 @@ ul li{
 }
 .banner-right{
     position:absolute;
-    right:213px;
+    right:310px;
     top: 70px;
     width: 468px;
     height: 634px;
@@ -143,7 +195,7 @@ ul li{
 }
 
 .banner-right img{
-    width: 430px;          /* or % value */
+    width: 450px;          /* or % value */
     height: auto;          /* keeps aspect ratio */
     object-fit: contain;   /* prevents cropping */
     image-rendering: auto; /* browser smooth scaling */
@@ -168,8 +220,8 @@ ul li{
     align-items: center;
     padding: 6px 7px;
     border-radius: 30px;
-    right:217px;
-    top: 255px;
+    right:290px;
+    top: 268px;
 }
 .sticker-2{
     background-color: white;
@@ -181,7 +233,7 @@ ul li{
     align-items: center;
     padding: 6px 8px;
     border-radius: 30px;
-    right:555px;
+    right:650px;
     top: 334px;
 }
 
@@ -282,6 +334,7 @@ ul li{
     gap: 84px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 182px;
 }
 .img-container{
     width: 540px;
@@ -666,4 +719,7 @@ section{
 
 .company{
     white-space: nowrap;
+}
+.subscription button{
+    border: none;
 }
